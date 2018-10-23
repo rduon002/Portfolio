@@ -1,0 +1,153 @@
+body, html{
+  height: 100%;
+  background: url("../images/visa.jpg") no-repeat center center fixed;
+  background-size: cover;
+  background-color: rgba(255,255,255,0.6);
+  background-blend-mode: luminosity;
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-weight: bolder;
+}
+
+* {
+    color:#fff;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 1.45em;
+}
+
+h3 {
+  padding: 20px;
+  text-transform:lowercase;
+  z-index: 100000000;
+  position: relative;
+}
+
+.navbar-default {
+  background-color:transparent !important;
+  border-color:transparent;
+  background-image:none;
+  box-shadow:none;
+  position: relative;
+  top: 5%;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+  font-size: xx-large;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+  font-size: large;
+}
+
+.panel-default {
+  opacity: 0.75;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 5%;
+}
+
+
+button {
+  text-align: center;
+  width: 100%;
+}
+
+.media-card {
+  padding: 100px;
+  position: relative;
+}
+
+.modal-body > p, .modal-body > ul > li, .modal-title {
+  color: black;
+}
+
+#ghcard-dizdonut-1, #easyXDM_IN_Lib_li_gen_1509029633255_0_provider {
+  width: 365px;
+  position: relative !important;
+}
+
+.img-thumbnail {
+  height: 200px;
+  width: 140px;
+  position: relative;
+  float: right;
+  right: 3%;
+  border-radius: 150px;
+  opacity: 0.75;
+}
+
+.project-panels{
+  word-break: break-all;
+  display: inline-block;
+}
+
+.project-thumbnail {
+  height: 250px;
+  width: 100%;
+}
+
+.modal-title, .panel-heading {
+  text-align: center;
+  font-weight: bolder;
+}
+
+/*Footer/MAC OS replica styling*/
+
+#dock-container {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  padding-top: 10px;
+  left: 2%;
+  right: 2%;
+  width: 95%;
+  background: rgba(255,255,255,0.2);
+  border-radius: 10px 10px 0 0;
+}
+
+#dock-container li {
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+}
+
+#dock-container li img {
+   width: 64px;
+   height: 64px;
+   border-radius: 50px;
+   -webkit-box-reflect: below 2px
+            -webkit-gradient(linear, left top, left bottom, from(transparent),
+             color-stop(0.7, transparent), to(rgba(255,255,255,.5)));
+   -webkit-transition: all 0.3s;
+   -webkit-transform-origin: 50% 100%;
+ }
+
+#dock-container li:hover img {
+  -webkit-transform: scale(2);
+  margin: 0 2em;
+}
+
+#dock-container li:hover + li img,
+#dock-container li.prev img {
+  -webkit-transform: scale(1.5);
+  margin: 0 1.5em;
+}
+
+#dock-container li span {
+  display: none;
+  position: absolute;
+  bottom: 140px;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0.75);
+  padding: 4px 0;
+  border-radius: 12px;
+  font-size: 18px;
+}
+#dock-container li:hover span {
+  display: block;
+  color: #fff;
+}
